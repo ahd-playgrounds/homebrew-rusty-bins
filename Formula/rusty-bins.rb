@@ -1,4 +1,4 @@
-class RustyBin < Formula
+class RustyBins < Formula
   if Hardware::CPU.type == :arm
     url "https://github.com/ahd-playgrounds/rusty-bins/releases/download/v0.2.2/rusty-bins-aarch64-apple-darwin.tar.xz"
     sha256 "7295629bed1e0c23ace9a61fc48477926776a28a91d295ef7dd4d66fbac5dd7a"
